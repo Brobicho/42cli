@@ -2,14 +2,14 @@
 
 #fix_brew.sh - mcartier
 
-echo "Installing a healthy homebrew";
 
 #you can keep ur brew if u need ur formulas
-if [ -e "$1" ] && [$1 == "--keep"];
+if [ "$1" = "--keep" ];
   then
-    echo "actual brew not removed"
+    echo "actual brew not removed";
   else
-    rm -rf ~/.brew
+    echo "Installing a healthy homebrew";
+    rm -rf ~/.brew;
     git clone https://github.com/Homebrew/brew.git --depth=1 ~/.brew;
 fi
 
