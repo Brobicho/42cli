@@ -37,7 +37,7 @@ You can still build [this version of fish-shell](https://github.com/neolectron/f
 ```
 git clone https://github.com/neolectron/fish-shell &&
 cd fish-shell &&
-brew install autoconf && autoconf && make
+brew install autoconf && autoconf && ./configure && make
 ```
 
 then patch your fish with :
