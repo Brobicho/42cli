@@ -22,12 +22,12 @@ Any help is apprecied, just pull-request me any usefull scripts :).
 
 At the moment you can use :
 
--add_colors.sh (which add the atom color palette to your iTerm settings)
+-**add_colors.sh** (which add the atom color palette to your iTerm settings)
 
--fix_brew.sh (which fix brew)
+-**fix_brew.sh** (which fix brew)
 > **Tip:** You can use `--keep` argument to prevent deleting your formulas :).
 
--fix_hiddenfiles.sh (which enable the hiddens files in the Finder)
+-**fix_hiddenfiles.sh** (which enable the hiddens files in the Finder)
 
 #### <i class="icon-refresh"></i> I'm working on
 
