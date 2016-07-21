@@ -15,9 +15,9 @@ fi
 
 #fixing Caches and Locks
 rm -rf ~/Library/Caches ~/.brew/Library/Locks;
-mkdir -p "/tmp/$USER/Homebrew/Caches" "/tmp/$USER/Homebrew/Temp" "/tmp/$USER/Homebrew/Locks";
+mkdir -p "/tmp/$USER/Homebrew/Caches" "/tmp/$USER/Homebrew/Temp" "/tmp/$USER/Homebrew/Locks" > ~/.zprofile;
 ln -s /tmp/$USER/Homebrew/Locks ~/.brew/Library/Locks;
-echo "export HOMEBREW_CACHE=/tmp/\$USER/Homebrew/Caches" > ~/.zprofile
+echo "export HOMEBREW_CACHE=/tmp/\$USER/Homebrew/Caches" >> ~/.zprofile
 echo "export HOMEBREW_TEMP=/tmp/\$USER/Homebrew/Temp" >> ~/.zprofile
 echo "export TMP_DIR=\"/Volumes/Storage/goinfre/$USER\"" >> ~/.zprofile;
 echo "export PATH=~/.brew/bin:\$PATH" >> ~/.zprofile;
