@@ -29,6 +29,8 @@ At the moment you can use :
 
 -**fix_hiddenfiles.sh** (which enable the hiddens files in the Finder)
 
+-**fix_brew.sh** (which fix the flux problem)
+
 #### <i class="icon-refresh"></i> I'm working on
 
 I'm working on a script fixing [fish-shell](https://github.com/neolectron/fish-shell) erros at 42. I have to rebuild my own fish binary, but it seems like it uses my username when i `make` the project. so this binary is only usable by me atm...
