@@ -29,6 +29,7 @@ At the moment you can use :
 
 -**fix_fish.sh** (which fix fish)
 > **Tip:** I made a pull request at fish repo, so in 2.3.2 it will be natively fixed.
+
 > **Tip:** `echo "exec fish -l" >> .zshrc`.
 
 -**fix_hiddenfiles.sh** (which enable the hiddens files in the Finder)
